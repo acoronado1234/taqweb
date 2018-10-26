@@ -1,5 +1,6 @@
 import React, { Component, useState } from 'react';
 import { hot } from 'react-hot-loader';
+import Toolbar from '@material-ui/core/Toolbar';
 import './App.css';
 
 function MyInput() {
@@ -21,6 +22,9 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
+          <Toolbar>
+            
+          </Toolbar>
           <MyInput/>
         </header>
       </div>
