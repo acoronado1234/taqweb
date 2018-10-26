@@ -2,9 +2,15 @@
   "name": "taqweb",
   "version": "0.1.0",
   "private": true,
+  "babel": {
+    "plugins": [
+      "react-hot-loader/babel"
+    ]
+  },
   "dependencies": {
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0",
+    "react-hot-loader": "^4.3.11",
     "react-scripts": "2.0.5"
   },
   "scripts": {
