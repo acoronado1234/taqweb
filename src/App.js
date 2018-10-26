@@ -1,5 +1,5 @@
 import React, { Component, useState } from 'react';
-import logo from './logo.svg';
+import { hot } from 'react-hot-loader';
 import './App.css';
 
 function MyInput() {
@@ -28,4 +28,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default hot(module)(App);
