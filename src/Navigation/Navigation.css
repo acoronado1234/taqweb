@@ -1,0 +1,48 @@
+.navBarRectangle {
+    margin: auto;
+    height: 70px;
+    background-color: #F7B2AD;
+    position: relative;
+    width: 80%;
+}
+
+.navButtonDiv {
+    display: inline-block;
+    width: 33.3%;
+    text-align: center;
+}
+
+*:focus {
+    outline: none !important;
+}
+
+.navBarButton {
+    border: 0px;
+    display: inline-block;
+    margin: 0 auto;
+    height: 37px;
+    background: none;
+    font-size: 20px;
+    font-family: 'sans-serif';
+}
+
+.navSelectedButton {
+    border-bottom: 2px solid #0B5351;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    display: inline-block;
+    margin: 0 auto;
+    height: 37px;
+    background: none;
+    font-size: 20px;
+    font-family: 'sans-serif';
+}
+
+.navBarButtonDiv {
+    display: inline-block;
+    height: 37px;
+    width: 100%;
+    position: absolute;
+    bottom: 0; 
+}
