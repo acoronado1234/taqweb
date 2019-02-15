@@ -5,6 +5,10 @@
 
 .App {
   background: #B7B7B7;
-  height: 100vh;
+  height: 200vh;
+  width: 100%;
   overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
 }
